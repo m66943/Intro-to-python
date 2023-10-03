@@ -1,4 +1,5 @@
 n = int(input())
 l=n//10
 r=n%10
-print(r,l)
+# f'{}{}' prints without spaces
+print(f'{r}{l}')
